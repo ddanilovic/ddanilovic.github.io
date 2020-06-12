@@ -350,7 +350,7 @@ p {
   height: 100%;
   position: absolute;
   top: 0;
-  opacity: 0;
+  opacity: 0; 
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -1121,6 +1121,10 @@ a:visited {
     padding: 4.5% 10%;
   }
 
+  .reasons-to-employ-block div:nth-child(1) {
+    margin-bottom: 56px;
+  }
+
   .main-header-container {
     max-width: 1040px;
   }
@@ -1198,8 +1202,8 @@ a:visited {
 
   /* projects CSS */
   .projects-container {
-    grid-gap: 25px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .project-summary-image-container {
