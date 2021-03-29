@@ -190,6 +190,8 @@ p {
   text-align: center;
 }
 
+
+
 /* Summary CSS */
 .summary {
   background-color: var(--secondary-color);
@@ -888,7 +890,7 @@ a:visited {
   .project-summary-content-container,
   .technologies-used-content-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .technologies-content-used-container {
@@ -905,10 +907,10 @@ a:visited {
     text-align: left;
   }
 
-  .project-summary-image-container,
+  /* .project-summary-image-container,
   .technologies-used-content-container img {
     flex: 1 50%;
-  }
+  } */
 
   .project-main-container .main-button {
     margin: 0;
